@@ -1,4 +1,4 @@
-- name: Ansible Copy Local to Remote
+- name: Ansible Copy Local to Remote, okay
   hosts: "{{hosts}}"
   vars:
     src_path: "{{ workspace_path }}/webapp/target/webapp.war"
